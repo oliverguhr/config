@@ -1,4 +1,5 @@
-::browser
+::Install chocolatey from https://chocolatey.org/ first.
+::browsers
 choco install googlechrome firefox 
 ::casual
 choco install skype dropbox calibre steam picasa
