@@ -1,0 +1,7 @@
+[alias]
+	c = commit -m
+	aa = add --all
+	s = status 
+	glog = log -n 10 --date-order --abbrev-commit --graph --pretty=format:"%h|%an|%ar|%s"
+[push]
+	default = simple
