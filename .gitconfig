@@ -2,6 +2,7 @@
 	c = commit -m
 	aa = add --all
 	s = status 
-	glog = log -n 10 --date-order --abbrev-commit --graph --pretty=format:"%h|%an|%ar|%s"
+	slog = log -n 10 --date-order --abbrev-commit --graph --pretty=format:"%h|%an|%ar|%s"
+	glog = log --graph --pretty=oneline --abbrev-commit --decorate --branches --all
 [push]
 	default = simple
