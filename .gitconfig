@@ -4,5 +4,6 @@
 	s = status 
 	slog = log -n 10 --date-order --abbrev-commit --graph --pretty=format:"%h|%an|%ar|%s"
 	glog = log --graph --pretty=oneline --abbrev-commit --decorate --branches --all
-[push]
-	default = simple
+[user]
+	email = oliver.guhr@gmx.de
+	name = Oliver Guhr
